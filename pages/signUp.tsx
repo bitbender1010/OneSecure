@@ -86,6 +86,7 @@ const Signup = () => {
               </div>
             </div>
             <div className={style.hr}></div>
+            <div className={style.hr1}></div>
             <div className={style.right}>
               <div className={style.conf}>
                 <h2>National Information</h2>
