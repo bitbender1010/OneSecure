@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.rightBa {
+  width: 720px;
+  height: 100%;
+  background: #32bea6;
+}
+.right {
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.logo img {
+  height: 46.66666793823242px;
+  width: 35px;
+}
+.logo span {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+
+
+.left{
+    width: 720px;
+  height: 100%;
+  background: #fff;
+}
