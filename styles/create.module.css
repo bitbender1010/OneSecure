@@ -22,12 +22,16 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 .logo {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 1em;
+  position: absolute;
+  top:5%;
+  left: 0;
 }
 .logo img {
   height: 46.66666793823242px;
@@ -40,6 +44,7 @@
   font-size: 30px;
   line-height: 45px;
   color: #ffffff;
+  
 }
 
 .right h2 {
@@ -49,6 +54,7 @@
   font-size: 28px;
   line-height: 42px;
   color: #ffffff;
+  margin: 1em 0 0 ;
 }
 .right p {
   font-family: "Poppins", sans-serif;
@@ -57,13 +63,16 @@
   font-size: 22px;
   line-height: 33px;
   color: #ffffff;
+  margin: 0em 0 1em;
 }
 .boxCon {
   width: 100% !important;
   background-color: #fff !important;
- margin-bottom: 1em !important;
-    margin-left: 0 !important;
+  margin-bottom: 1em !important;
+  margin-left: 0 !important;
+  border-radius: 10px;
 }
+
 
 .boxCon:focus-visible {
   background-color: red !important;
@@ -113,13 +122,12 @@
   height: 425.12px;
 }
 
-
 @media (max-width: 1350px) {
   .leftBa img {
-  width: 97%;
-  object-fit: contain;
-  height: 425.12px;
-}
+    width: 97%;
+    object-fit: contain;
+    height: 425.12px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -135,7 +143,6 @@
   }
   .rightBa {
     width: 100%;
-
   }
 
   .right {
@@ -145,7 +152,7 @@
 }
 
 @media (max-width: 425px) {
-   .logo {
+  .logo {
     gap: 0.3em;
   }
   .logo img {
