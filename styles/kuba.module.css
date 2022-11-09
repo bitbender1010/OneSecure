@@ -57,7 +57,7 @@
 }
 
 .right h4 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
@@ -66,7 +66,7 @@
   margin: 0 0 0.5em;
 }
 .red {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -109,7 +109,7 @@
   outline: none;
   border-radius: 10px;
   padding-left: 1em;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -141,7 +141,7 @@
   width: 100%;
 }
 .text p {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -160,7 +160,7 @@
   border: 2px solid #000000;
   border-radius: 10px;
   padding-left: 1em;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -208,7 +208,7 @@
   margin-bottom: 5em;
 }
 .inputCapp p {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
@@ -258,7 +258,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -285,7 +285,7 @@
   border: 2px solid #ffffff;
   border-radius: 10px;
   background: transparent;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -348,7 +348,7 @@ color: #000000 !important;
 .or {
   text-align: center;
   margin: 1em 0;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
