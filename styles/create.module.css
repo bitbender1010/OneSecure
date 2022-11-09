@@ -73,10 +73,32 @@
   border-radius: 10px;
 }
 
-
-.boxCon:focus-visible {
-  background-color: red !important;
+.input {
+  width: 480px;
+  height: 60px;
+  left: 120px;
+  top: 383px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 1em;
 }
+.input input {
+  width: 90%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding-left: 1em;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+
 
 .right button {
   height: 60px;
@@ -150,6 +172,12 @@
     margin: auto;
   }
 }
+@media (max-width: 490px) {
+  .input {
+    width: 98%;
+  }
+}
+
 
 @media (max-width: 425px) {
   .logo {

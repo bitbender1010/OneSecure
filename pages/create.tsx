@@ -28,39 +28,25 @@ const Create = () => {
               one place.
             </p>
 
-            <Box
-              component="form"
-              sx={{
-                "& > :not(style)": { m: 1, width: "25ch" },
-              }}
-              noValidate
-              autoComplete="off"
-              className={style.box}
-            >
-              <TextField
-                id="outlined-basic"
-                label="NIN"
-                variant="outlined"
-                className={style.boxCon}
-              />
-              <TextField
-                id="outlined-basic"
-                label="Email"
-                variant="outlined"
-                className={style.boxCon}
-              />
-              <TextField
-                id="outlined-basic"
-                label="Password"
-                variant="outlined"
-                className={style.boxCon}
-              />
-            </Box>
+            <div className={style.input}>
+              <input type="text" placeholder="First Name" />
+            </div>
+            <div className={style.input}>
+              <input type="text" placeholder="Email" />
+            </div>
+            <div className={style.input}>
+              <input type="text" placeholder="Password" />
+            </div>
+            <div className={style.input}>
+              <input type="text" placeholder="Confirm Password" />
+            </div>
 
             <button>Create Account</button>
             <p className={style.login}>
               Already have a OneSecure <br /> accountt?
-              <Link className={style.loginC} href="/">Login</Link>
+              <Link className={style.loginC} href="/">
+                Login
+              </Link>
             </p>
           </div>
         </div>

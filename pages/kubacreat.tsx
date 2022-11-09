@@ -23,40 +23,20 @@ const Kcreate = () => {
             <h2>Create a account</h2>
             <p>We’re the bank of the free</p>
 
-            <Box
-              component="form"
-              sx={{
-                "& > :not(style)": { m: 1, width: "25ch" },
-              }}
-              noValidate
-              autoComplete="off"
-              className={style.box}
-            >
-              <TextField
-                id="outlined-basic"
-                label="Legal Name"
-                variant="outlined"
-                className={style.boxCon}
-              />
-              <TextField
-                id="outlined-basic"
-                label="Email Address"
-                variant="outlined"
-                className={style.boxCon}
-              />
-              <TextField
-                id="outlined-basic"
-                label="Password"
-                variant="outlined"
-                className={style.boxCon}
-              />
-            </Box>
+
+            <div className={style.input}>
+              <input type="text" placeholder="Email" />
+            </div>
+            <div className={style.input}>
+              <input type="text" placeholder="Password" />
+            </div>
+           
 
             <button>Create Account</button>
 
-            <span>Or</span>
+            <span className={style.or}>Or</span>
 
-            <button className={style.btnn}>Create Account</button>
+            <button className={style.btnn}>Sign up with google</button>
             <p className={style.login}>
               Already have a OneSecure <br /> accountt?
               <Link className={style.loginC} href="/">

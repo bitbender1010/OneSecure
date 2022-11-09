@@ -1,7 +1,5 @@
 import style from "../styles/create.module.css";
 import Head from "next/head";
-import Box from "@mui/material/Box";
-import TextField from "@mui/material/TextField";
 import Link from "next/link";
 
 const Login = () => {
@@ -26,28 +24,12 @@ const Login = () => {
               one place.
             </p>
 
-            <Box
-              component="form"
-              sx={{
-                "& > :not(style)": { m: 1, width: "25ch" },
-              }}
-              noValidate
-              autoComplete="off"
-              className={style.box}
-            >
-              <TextField
-                id="outlined-basic"
-                label="OneSecure Email"
-                variant="outlined"
-                className={style.boxCon}
-              />
-              <TextField
-                id="outlined-basic"
-                label="OneSecure Password"
-                variant="outlined"
-                className={style.boxCon}
-              />
-            </Box>
+            <div className={style.input}>
+              <input type="text" placeholder="OneSecure Email" />
+            </div>
+            <div className={style.input}>
+              <input type="text" placeholder="OneSecure Password" />
+            </div>
 
             <button>Login</button>
             <p className={style.login}>
