@@ -51,7 +51,7 @@ const Login = () => {
 
             <button>Login</button>
             <p className={style.login}>
-              Don't have a OneSecure <br /> account?
+              Don&lsquo;t have a OneSecure <br /> account?
               <Link className={style.loginC} href="/">
                 Sign up for free
               </Link>
