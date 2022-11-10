@@ -1,11 +1,12 @@
-import style from "../styles/sign.module.css";
+import style from "../styles/create.module.css";
 import Head from "next/head";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
+import Link from "next/link";
 
-const Signup = () => {
+const Create = () => {
   return (
-    <div className={style.main}>
+    <div>
       <Head>
         <title>One Secure</title>
         <meta name="description" content="One Secure" />
@@ -13,171 +14,48 @@ const Signup = () => {
       </Head>
 
       <main className={style.main}>
-        <div className={style.navBa}>
-          <nav className={style.nav}>
+        <div className={style.rightBa}>
+          <div className={style.right}>
             <div className={style.logo}>
               <img src="/logo.png" alt="logo" /> <span>One Secure</span>
             </div>
 
-            <div className={style.btn}>
-              <button className={style.btn1}>Add New</button>
-              <button className={style.btn2}>Save</button>
-            </div>
-          </nav>
-        </div>
-        <div className={style.infoBa}>
-          <div className={style.info}>
-            <div className={style.left}>
-              <h2>Welcome back, you can update all your information here</h2>
-              <p>
-                All your personal information, identity documents and more all
-                in one place.
-              </p>
+            <h2>Create a OneSecure account</h2>
+            <p>
+              All your personal information, identity documents and more all in
+              one place.
+            </p>
 
-              <div className={style.details}>
-                <span>Basic Information</span>
+            <div className={style.input}>
+              <input type="text" placeholder="First Name" />
+            </div>
+            <div className={style.input}>
+              <input type="text" placeholder="Email" />
+            </div>
+            <div className={style.input}>
+              <input type="text" placeholder="Password" />
+            </div>
+            <div className={style.input}>
+              <input type="text" placeholder="Confirm Password" />
+            </div>
 
-                <Box
-                  component="form"
-                  sx={{
-                    "& > :not(style)": { m: 1, width: "25ch" },
-                  }}
-                  noValidate
-                  autoComplete="off"
-                  className={style.box}
-                >
-                  <TextField
-                    id="outlined-basic"
-                    label="First Name"
-                    variant="outlined"
-                    className={style.boxCon}
-                  />
-                  <TextField
-                    id="outlined-basic"
-                    label="Last Name"
-                    variant="outlined"
-                    className={style.boxCon}
-                  />
-                  <TextField
-                    id="outlined-basic"
-                    label="Middle Name"
-                    variant="outlined"
-                    className={style.boxCon}
-                  />
-                  <TextField
-                    id="outlined-basic"
-                    label="Address"
-                    variant="outlined"
-                    className={style.boxCon}
-                  />
-                  <TextField
-                    id="outlined-basic"
-                    label="Date of birth"
-                    variant="outlined"
-                    className={style.boxCon}
-                  />
-                  <TextField
-                    id="outlined-basic"
-                    label="NIN"
-                    variant="outlined"
-                    className={style.boxCon}
-                  />
-                </Box>
-              </div>
-            </div>
-            <div className={style.hr}></div>
-            <div className={style.hr1}></div>
-            <div className={style.right}>
-              <div className={style.conf}>
-                <h2>National Information</h2>
-                <Box
-                  component="form"
-                  sx={{
-                    "& > :not(style)": { m: 1, width: "25ch" },
-                  }}
-                  noValidate
-                  autoComplete="off"
-                >
-                  <TextField
-                    id="outlined-basic"
-                    label="NIN"
-                    variant="outlined"
-                    className={style.boxCon}
-                  />
-                </Box>
-              </div>
-              <div className={style.conf}>
-                <h2>Financial Information</h2>
-                <Box
-                  component="form"
-                  sx={{
-                    "& > :not(style)": { m: 1, width: "25ch" },
-                  }}
-                  noValidate
-                  autoComplete="off"
-                >
-                  <TextField
-                    id="outlined-basic"
-                    label="BVN"
-                    variant="outlined"
-                    className={style.boxCon}
-                  />
-                </Box>
-              </div>
-              <div className={style.conf}>
-                <h2>Health Information</h2>
-                <Box
-                  component="form"
-                  sx={{
-                    "& > :not(style)": { m: 1, width: "25ch" },
-                  }}
-                  noValidate
-                  autoComplete="off"
-                >
-                  <TextField
-                    id="outlined-basic"
-                    label="Blood Group"
-                    variant="outlined"
-                    className={style.boxCon}
-                  />
-                  <TextField
-                    id="outlined-basic"
-                    label="Genotype"
-                    variant="outlined"
-                    className={style.boxCon}
-                  />
-                </Box>
-              </div>
-              <div className={style.conf}>
-                <h2>Document</h2>
-                <Box
-                  component="form"
-                  sx={{
-                    "& > :not(style)": { m: 1, width: "25ch" },
-                  }}
-                  noValidate
-                  autoComplete="off"
-                >
-                  <TextField
-                    id="outlined-basic"
-                    label="International Passport"
-                    variant="outlined"
-                    className={style.boxCon}
-                  />
-                  <TextField
-                    id="outlined-basic"
-                    label="CAC Business Registration"
-                    variant="outlined"
-                    className={style.boxCon}
-                  />
-                </Box>
-              </div>
-            </div>
+            <button>
+              <Link href="/kubaverify">Create Account</Link>
+            </button>
+            <p className={style.login}>
+              Already have a OneSecure <br /> accountt?
+              <Link className={style.loginC} href="/login">
+                Login
+              </Link>
+            </p>
           </div>
+        </div>
+        <div className={style.leftBa}>
+          <img src="/gr.png" alt="" />
         </div>
       </main>
     </div>
   );
 };
 
-export default Signup;
+export default Create;
