@@ -108,7 +108,7 @@ export default function Home() {
                 <AiOutlineCheckCircle className={style.cIcon} />
                 <h3>Telecoms</h3>
                 <p>
-                Registering a new sim user shouldn't require much hassle. Get access to a user&apos;s local government area, 
+                Registering a new sim user shouldn&apos;t require much hassle. Get access to a user&apos;s local government area, 
                 state of origin, and mother&apos;s maiden name, all in one click.
                 </p>
               </div>
