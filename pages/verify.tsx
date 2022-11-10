@@ -13,11 +13,10 @@ const Verify = () => {
 
       <main className={style.main}>
         <div className={style.rightBa}>
-          <div className={style.right}>
+            <div className={style.right}>
             <div className={style.logo}>
-              <img src="/logo.png" alt="logo" /> <span>One Secure</span>
+              <img src="/kuda.png" alt="logo" /> <span>Kuba Bank</span>
             </div>
-
             <h4>
               You will be redirected to OneSecure our verification partner so as
               to complete your registration

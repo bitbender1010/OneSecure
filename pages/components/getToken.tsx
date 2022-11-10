@@ -9,11 +9,14 @@ const gToken = () => {
   axios
     .post("https://authapitest.herokuapp.com/api/token/", data)
     .then((res: any) => {
-      console.log(res.data);
+      const token =  res.data.access
     })
     .catch((err) => {
       console.log(err);
     });
 };
+
+
+
 
 export default gToken;

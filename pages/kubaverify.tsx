@@ -1,6 +1,8 @@
 import style from "../styles/kuba.module.css";
 import Head from "next/head";
 import Link from "next/link";
+import {AiOutlineCheckCircle } from 'react-icons/ai'
+import { FaTimes } from "react-icons/fa";
 
 
 const Kverify = () => {
@@ -28,13 +30,39 @@ const Kverify = () => {
             </div>
 
             <div className={style.input}>
-              <input type="text" placeholder="First Name" />
+              <input
+                style={{ width: "90%" }}
+                type="text"
+                placeholder="First Name"
+                disabled
+              />
+
+              <AiOutlineCheckCircle className={style.check} />
             </div>
             <div className={style.input}>
-              <input type="text" placeholder="Last Name" />
+              <input
+                style={{ width: "90%" }}
+                type="text"
+                placeholder="Last Name"
+                disabled
+              />
+              <AiOutlineCheckCircle className={style.check} />
             </div>
-            <div className={style.input}>
-              <input type="text" placeholder="NIN" />
+            <div className={style.inputt}>
+              <div className={style.inpput}>
+                <input
+                  style={{ width: "90%" }}
+                  type="text"
+                  placeholder="NIN"
+                  disabled
+                />
+                <FaTimes className={style.times} />
+              </div>
+
+              <p>
+                Kuba Bank is requesting for your NIN but you have not provided
+                it. You will be asked to provide a valid NIN on the next page.
+              </p>
             </div>
 
             <button>

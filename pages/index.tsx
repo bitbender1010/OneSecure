@@ -24,7 +24,7 @@ export default function Home() {
           </nav>
           <div className={style.headCon}>
             <div className={style.text}>
-              <h2>All in one identity verification system</h2>
+              <h2>All in one identity verification system for businesses</h2>
               <p>
                 Save time by connecting with multiple infrastructures with only
                 one integration.
@@ -34,10 +34,13 @@ export default function Home() {
                 <button>
                   <Link href="/kubacreat">Try out demo</Link>
                 </button>
-                <div className={style.watch}>
-                  <AiOutlinePlayCircle className={style.play} />{" "}
-                  <span>Watch it in action</span>
-                </div>
+
+                <Link href="#demo">
+                  <div className={style.watch}>
+                    <AiOutlinePlayCircle className={style.play} />{" "}
+                    <span>Watch it in action</span>
+                  </div>
+                </Link>
               </div>
             </div>
 
@@ -51,7 +54,8 @@ export default function Home() {
           <div className={style.spon}>
             <h2>
               There are so many identify verification infrastructures out there
-              but your customers don’t care
+              but your customers don’t care. All they want is to get verified
+              and start using your platform.
             </h2>
 
             <div className={style.sponCap}>
@@ -73,7 +77,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className={style.demoB}>
+        <section className={style.demoB} id="demo">
           <section className={style.demo}>
             <h2>
               Watch how your customers use OneSecure after your integration
@@ -95,48 +99,51 @@ export default function Home() {
                 <AiOutlineCheckCircle className={style.cIcon} />
                 <h3>Banking and Lending</h3>
                 <p>
-                  KYC compliance regulations are becoming more stringent as
-                  service digitization becomes more important.
+                  Get easy access to your users&apos; data, all in one place,
+                  BVN, NIN, House Address, CAC Documents, etc.
                 </p>
               </div>
               <div className={style.conCap}>
                 <AiOutlineCheckCircle className={style.cIcon} />
-                <h3>Banking and Lending</h3>
+                <h3>Telecoms</h3>
                 <p>
-                  KYC compliance regulations are becoming more stringent as
-                  service digitization becomes more important.
+                  Registering a new sim user shouldn&apos;t require much hassle.
+                  Get access to a user&apos;s local government area, state of
+                  origin, and mother&apos;s maiden name, all in one click.
                 </p>
               </div>
               <div className={style.conCap}>
                 <AiOutlineCheckCircle className={style.cIcon} />
-                <h3>Banking and Lending</h3>
+                <h3>Ecommerce</h3>
                 <p>
-                  KYC compliance regulations are becoming more stringent as
-                  service digitization becomes more important.
+                  Verify your sellers and reduce fraudulent activities. The
+                  semi-anonymity of some e-commerce platforms makes them easily
+                  prone to fraudulent schemes.
                 </p>
               </div>
               <div className={style.conCap}>
                 <AiOutlineCheckCircle className={style.cIcon} />
-                <h3>Banking and Lending</h3>
+                <h3>Health Care</h3>
                 <p>
-                  KYC compliance regulations are becoming more stringent as
-                  service digitization becomes more important.
+                  Get users&apos; health records like genotype, blood group, and
+                  allergies, all with one integration.
                 </p>
               </div>
               <div className={style.conCap}>
                 <AiOutlineCheckCircle className={style.cIcon} />
-                <h3>Banking and Lending</h3>
+                <h3>Education</h3>
                 <p>
-                  KYC compliance regulations are becoming more stringent as
-                  service digitization becomes more important.
+                  Access past education history, user&apos;s biodata, exam
+                  scores, etc. Improve your onboarding process with just one
+                  integration.
                 </p>
               </div>
               <div className={style.conCap}>
                 <AiOutlineCheckCircle className={style.cIcon} />
-                <h3>Banking and Lending</h3>
+                <h3>Fraud Protection</h3>
                 <p>
-                  KYC compliance regulations are becoming more stringent as
-                  service digitization becomes more important.
+                  Report and block fraudulent users and get insights on users
+                  that either have been reported or blocked by other platforms.
                 </p>
               </div>
             </div>
@@ -148,9 +155,10 @@ export default function Home() {
             <div className={style.iText}>
               <h2>Seamless API integration for Developers</h2>
               <p>
-                KYC compliance regulations are becoming more stringent as
-                service digitization becomes more important. When one API is
-                down
+                All you need is only one integration to connect to other
+                identity verification systems. And when one API is down, be sure
+                that whichever supporting API you’ve picked is ready to take
+                over and give your users a smooth verification experience.
               </p>
               <button>Try Out Demo</button>
             </div>

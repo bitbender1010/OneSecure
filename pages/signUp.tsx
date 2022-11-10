@@ -3,6 +3,7 @@ import Head from "next/head";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Link from "next/link";
+import Image from 'next/image'
 
 const Create = () => {
   return (
@@ -34,9 +35,6 @@ const Create = () => {
             </div>
             <div className={style.input}>
               <input type="text" placeholder="Password" />
-            </div>
-            <div className={style.input}>
-              <input type="text" placeholder="Confirm Password" />
             </div>
 
             <button>

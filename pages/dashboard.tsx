@@ -2,6 +2,7 @@ import style from "../styles/sign.module.css";
 import Head from "next/head";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
+import Image from 'next/image'
 
 const Signup = () => {
   return (
@@ -48,15 +49,17 @@ const Signup = () => {
                 >
                   <TextField
                     id="outlined-basic"
-                    label="First Name"
+                    label=""
                     variant="outlined"
                     className={style.boxCon}
+                    value="Damilare"
                   />
                   <TextField
                     id="outlined-basic"
-                    label="Last Name"
+                    label=""
                     variant="outlined"
                     className={style.boxCon}
+                    value="Ayodeji"
                   />
                   <TextField
                     id="outlined-basic"
