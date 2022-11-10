@@ -11,28 +11,28 @@
 }
 
 .header {
-  height: 763px;
   background: #32bea6;
-  padding: 3em 0;
+  padding: 2em 0;
 }
 
 .nav {
+  margin: 10px auto;
   max-width: 1440px;
-  width: 100%;
-  margin: 0 auto 3em;
+  padding: 0 10%;
 }
 
 .nav img {
-  width: 221px;
-  height: 46.67px;
+  width: 150px;
+  height: auto;
 }
 
 .headCon {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 2em auto;
   max-width: 1440px;
-  margin: auto;
+  padding: 0 10%;
 }
 .text {
   width: 586px;
@@ -41,8 +41,7 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
-  line-height: 75px;
+  font-size: 40px;
   color: #000000;
   margin: 0 0 1em;
 }
@@ -51,7 +50,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  line-height: 45px;
   color: #000000;
   margin: 0 0 2em;
 }
@@ -64,8 +62,7 @@
 }
 
 .btn button {
-  width: 315px;
-  height: 80px;
+  padding: 20px 40px;
   background: #000000;
   border-radius: 10px;
   font-family: "Poppins", sans-serif;
@@ -84,8 +81,12 @@
   gap: 0.4em;
 }
 
+.watch span {
+  font-size: 25px;
+}
+
 .play {
-  font-size: 40px;
+  font-size: 50px;
 }
 .watch p {
   font-family: "Poppins", sans-serif;
@@ -96,8 +97,8 @@
   color: #000000;
 }
 .image {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }
 
 .image img {
