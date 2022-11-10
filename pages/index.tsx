@@ -156,7 +156,7 @@ export default function Home() {
                 service digitization becomes more important. When one API is
                 down
               </p>
-              <button>Try Out Demod</button>
+              <button>Try Out Demoed</button>
             </div>
 
             <div className={style.imagi}>
