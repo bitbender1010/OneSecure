@@ -2,6 +2,7 @@ import style from "../styles/sign.module.css";
 import Head from "next/head";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
+import Image from 'next/image'
 
 const Signup = () => {
   return (
@@ -16,7 +17,7 @@ const Signup = () => {
         <div className={style.navBa}>
           <nav className={style.nav}>
             <div className={style.logo}>
-              <img src="/logo.png" alt="logo" /> <span>One Secure</span>
+              <Image src="/logo.png" alt="logo" /> <span>One Secure</span>
             </div>
 
             <div className={style.btn}>

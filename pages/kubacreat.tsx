@@ -3,6 +3,7 @@ import Head from "next/head";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Link from "next/link";
+import Image from 'next/image'
 
 const Kcreate = () => {
   return (
@@ -17,7 +18,7 @@ const Kcreate = () => {
         <div className={style.rightBa}>
           <div className={style.right}>
             <div className={style.logo}>
-              <img src="/logo.png" alt="logo" /> <span>Kuda Bank</span>
+              <Image src="/logo.png" alt="logo" /> <span>Kuda Bank</span>
             </div>
 
             <h2>Create a account</h2>
@@ -46,7 +47,7 @@ const Kcreate = () => {
           </div>
         </div>
         <div className={style.leftBa}>
-          <img src="/gr.png" alt="" />
+          <Image src="/gr.png" alt="" />
         </div>
       </main>
     </div>

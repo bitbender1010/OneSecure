@@ -1,5 +1,6 @@
 import Head from "next/head";
 import style from "../styles/Home.module.css";
+import Image from 'next/image'
 import {
   AiOutlinePlayCircle,
   AiOutlineCheckCircle,
@@ -20,7 +21,7 @@ export default function Home() {
       <main className={style.main}>
         <header className={style.header}>
           <nav className={style.nav}>
-            <img src="/os10.png" alt="" />
+            <Image src="/os10.png" alt="" />
           </nav>
           <div className={style.headCon}>
             <div className={style.text}>
@@ -46,7 +47,7 @@ export default function Home() {
             </div>
 
             <div className={style.image}>
-              <img src="/os9.png" alt="" />
+              <Image src="/os9.png" alt="" />
             </div>
           </div>
         </header>
@@ -55,24 +56,24 @@ export default function Home() {
           <div className={style.spon}>
             <h2>
               There are so many identify verification infrastructures out there
-              but your customers don’t care. All they want is to get verified and start using your platform.
+              but your customers don&apos;t care. All they want is to get verified and start using your platform.
             </h2>
 
             <div className={style.sponCap}>
               <div className={style.one}>
-                <img src="/os8.png" alt="" />
-                <img src="/os7.png" alt="" />
-                <img src="/os4.png" alt="" />
+                <Image src="/os8.png" alt="" />
+                <Image src="/os7.png" alt="" />
+                <Image src="/os4.png" alt="" />
               </div>
               <div className={style.one}>
-                <img src="/os2.png" alt="" />
-                <img src="/os1.png" alt="" />
-                <img src="/sc11.png" alt="" />
+                <Image src="/os2.png" alt="" />
+                <Image src="/os1.png" alt="" />
+                <Image src="/sc11.png" alt="" />
               </div>
               <div className={style.one}>
-                <img src="/os6.png" alt="" />
-                <img src="/os3.png" alt="" />
-                <img src="/os5.png" alt="" />
+                <Image src="/os6.png" alt="" />
+                <Image src="/os3.png" alt="" />
+                <Image src="/os5.png" alt="" />
               </div>
             </div>
           </div>
@@ -99,7 +100,7 @@ export default function Home() {
                 <AiOutlineCheckCircle className={style.cIcon} />
                 <h3>Banking and Lending</h3>
                 <p>
-                Get easy access to your users' data, all in one place, BVN, NIN, 
+                Get easy access to your users&apos; data, all in one place, BVN, NIN, 
                 House Address, CAC Documents, etc.
                 </p>
               </div>
@@ -107,8 +108,8 @@ export default function Home() {
                 <AiOutlineCheckCircle className={style.cIcon} />
                 <h3>Telecoms</h3>
                 <p>
-                Registering a new sim user shouldn't require much hassle. Get access to a user's local government area, 
-                state of origin, and mother's maiden name, all in one click.
+                Registering a new sim user shouldn't require much hassle. Get access to a user&apos;s local government area, 
+                state of origin, and mother&apos;s maiden name, all in one click.
                 </p>
               </div>
               <div className={style.conCap}>
@@ -123,14 +124,14 @@ export default function Home() {
                 <AiOutlineCheckCircle className={style.cIcon} />
                 <h3>Health Care</h3>
                 <p>
-                Get users' health records like genotype, blood group, and allergies, all with one integration.
+                Get users&apos; health records like genotype, blood group, and allergies, all with one integration.
                 </p>
               </div>
               <div className={style.conCap}>
                 <AiOutlineCheckCircle className={style.cIcon} />
                 <h3>Education</h3>
                 <p>
-                Access past education history, user's biodata, exam scores, etc. 
+                Access past education history, user&apos;s biodata, exam scores, etc. 
                 Improve your onboarding process with just one integration.
                 </p>
               </div>
@@ -159,14 +160,14 @@ export default function Home() {
             </div>
 
             <div className={style.imagi}>
-              <img src="scc1.png" alt="" />
+              <Image src="scc1.png" alt="" />
             </div>
           </div>
         </section>
         <div>
           <footer className={style.footer}>
             <div className={style.first}>
-              <img src="/os10.png" alt="" />
+              <Image src="/os10.png" alt="" />
               <p>
                 OneSecure is a platform that KYC compliance regulations are
                 becoming more stringent as service digitization becomes more

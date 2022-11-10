@@ -1,6 +1,7 @@
 import style from "../styles/kuba.module.css";
 import Head from "next/head";
 import Link from "next/link";
+import Image from 'next/image'
 import {AiOutlineCheckCircle } from 'react-icons/ai'
 import { FaTimes } from "react-icons/fa";
 
@@ -18,7 +19,7 @@ const Kverify = () => {
         <div className={style.rightBa}>
           <div className={style.right}>
             <div className={style.logo}>
-              <img src="/logo.png" alt="logo" /> <span>Kuda Bank</span>
+              <Image src="/logo.png" alt="logo" /> <span>Kuda Bank</span>
             </div>
 
             <h2>Kuba Bank is requesting to access the following details:</h2>
@@ -53,7 +54,7 @@ const Kverify = () => {
           </div>
         </div>
         <div className={style.leftBa}>
-          <img src="/gr.png" alt="" />
+          <Image src="/gr.png" alt="" />
         </div>
       </main>
     </div>

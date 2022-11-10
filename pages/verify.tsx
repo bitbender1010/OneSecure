@@ -1,6 +1,7 @@
 import style from "../styles/kuba.module.css";
 import Head from "next/head";
 import Link from "next/link";
+import Image from 'next/image'
 
 const Verify = () => {
   return (
@@ -14,7 +15,7 @@ const Verify = () => {
       <main className={style.main}>
         <div className={style.rightBa}>
           <div className={style.logo}>
-            <img src="/logo.png" alt="logo" /> <span>One Secure</span>
+            <Image src="/logo.png" alt="logo" /> <span>One Secure</span>
           </div>
           <div className={style.right}>
             <h4>
@@ -33,7 +34,7 @@ const Verify = () => {
           </div>
         </div>
         <div className={style.leftBa}>
-          <img src="/gr.png" alt="" />
+          <Image src="/gr.png" alt="" />
         </div>
       </main>
     </div>
