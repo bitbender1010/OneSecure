@@ -39,8 +39,11 @@ const Kverify = () => {
               <AiOutlineCheckCircle className={style.check} />
             </div>
             <div className={style.inputt}>
-              <input type="text" placeholder="NIN" disabled />
-              <FaTimes className={style.times} />
+              <div className={style.inpput}>
+                <input type="text" placeholder="NIN" disabled />
+                <FaTimes className={style.times} />
+              </div>
+
               <p>
                 Kuba Bank is requesting for your NIN but you have not provided
                 it. You will be asked to provide a valid NIN on the next page.

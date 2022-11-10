@@ -36,6 +36,7 @@ const Kverify3 = () => {
                 <RiArrowUpSLine className={style.textIcon} />
               </div>
               <div className={style.inner}>
+                <input type="file" accept="image/*" />
                 <TbFaceId className={style.capIcon} />
               </div>
             </div>

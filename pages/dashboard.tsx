@@ -48,15 +48,17 @@ const Signup = () => {
                 >
                   <TextField
                     id="outlined-basic"
-                    label="First Name"
+                    label=""
                     variant="outlined"
                     className={style.boxCon}
+                    value="Damilare"
                   />
                   <TextField
                     id="outlined-basic"
-                    label="Last Name"
+                    label=""
                     variant="outlined"
                     className={style.boxCon}
+                    value="Ayodeji"
                   />
                   <TextField
                     id="outlined-basic"
