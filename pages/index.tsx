@@ -24,7 +24,7 @@ export default function Home() {
           </nav>
           <div className={style.headCon}>
             <div className={style.text}>
-              <h2>All in one identity verification system</h2>
+              <h2>All in one identity verification system for businesses</h2>
               <p>
                 Save time by connecting with multiple infrastructures with only
                 one integration.
