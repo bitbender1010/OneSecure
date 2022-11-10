@@ -34,10 +34,14 @@ export default function Home() {
                 <button>
                   <Link href="/kubacreat">Try out demo</Link>
                 </button>
+
+                <Link href="#demo">
                 <div className={style.watch}>
                   <AiOutlinePlayCircle className={style.play} />{" "}
                   <span>Watch it in action</span>
                 </div>
+                </Link>
+
               </div>
             </div>
 
@@ -73,7 +77,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className={style.demoB}>
+        <section className={style.demoB} id="demo">
           <section className={style.demo}>
             <h2>
               Watch how your customers use OneSecure after your integration
