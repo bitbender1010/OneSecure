@@ -105,7 +105,7 @@ export default function Home() {
               </div>
               <div className={style.conCap}>
                 <AiOutlineCheckCircle className={style.cIcon} />
-                <h3>Banking and Lending</h3>
+                <h3>Telecoms</h3>
                 <p>
                   KYC compliance regulations are becoming more stringent as
                   service digitization becomes more important.
@@ -113,7 +113,7 @@ export default function Home() {
               </div>
               <div className={style.conCap}>
                 <AiOutlineCheckCircle className={style.cIcon} />
-                <h3>Banking and Lending</h3>
+                <h3>Ecommerce</h3>
                 <p>
                   KYC compliance regulations are becoming more stringent as
                   service digitization becomes more important.
@@ -121,7 +121,7 @@ export default function Home() {
               </div>
               <div className={style.conCap}>
                 <AiOutlineCheckCircle className={style.cIcon} />
-                <h3>Banking and Lending</h3>
+                <h3>Health Care</h3>
                 <p>
                   KYC compliance regulations are becoming more stringent as
                   service digitization becomes more important.
@@ -129,7 +129,7 @@ export default function Home() {
               </div>
               <div className={style.conCap}>
                 <AiOutlineCheckCircle className={style.cIcon} />
-                <h3>Banking and Lending</h3>
+                <h3>Education</h3>
                 <p>
                   KYC compliance regulations are becoming more stringent as
                   service digitization becomes more important.
@@ -137,7 +137,7 @@ export default function Home() {
               </div>
               <div className={style.conCap}>
                 <AiOutlineCheckCircle className={style.cIcon} />
-                <h3>Banking and Lending</h3>
+                <h3>Fraud Protection</h3>
                 <p>
                   KYC compliance regulations are becoming more stringent as
                   service digitization becomes more important.
