@@ -108,8 +108,8 @@ export default function Home() {
                 <h3>Telecoms</h3>
                 <p>
                   Registering a new sim user shouldn&apos;t require much hassle.
-                  Get access to a user&apos;s local government area, state of origin,
-                  and mother&apos;s maiden name, all in one click.
+                  Get access to a user&apos;s local government area, state of
+                  origin, and mother&apos;s maiden name, all in one click.
                 </p>
               </div>
               <div className={style.conCap}>
@@ -133,8 +133,8 @@ export default function Home() {
                 <AiOutlineCheckCircle className={style.cIcon} />
                 <h3>Education</h3>
                 <p>
-                  Access past education history, user&apos;s biodata, exam scores,
-                  etc. Improve your onboarding process with just one
+                  Access past education history, user&apos;s biodata, exam
+                  scores, etc. Improve your onboarding process with just one
                   integration.
                 </p>
               </div>
@@ -155,9 +155,10 @@ export default function Home() {
             <div className={style.iText}>
               <h2>Seamless API integration for Developers</h2>
               <p>
-                KYC compliance regulations are becoming more stringent as
-                service digitization becomes more important. When one API is
-                down
+                All you need is only one integration to connect to other
+                identity verification systems. And when one API is down, be sure
+                that whichever supporting API you’ve picked is ready to take
+                over and give your users a smooth verification experience.
               </p>
               <button>Try Out Demo</button>
             </div>

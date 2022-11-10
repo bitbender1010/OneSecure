@@ -131,7 +131,7 @@
   font-weight: 600;
   font-size: 22px;
   line-height: 33px;
-      background: transparent;
+  background: transparent;
 }
 .inputt input::placeholder {
   color: #000000;
@@ -487,7 +487,10 @@
     margin: auto;
   }
   .back {
+    margin: 2em 0;
     width: 98%;
+    font-size: 20px;
+    text-align: center;
   }
 
   .right h4 {
