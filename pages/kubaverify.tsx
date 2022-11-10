@@ -1,5 +1,6 @@
 import style from "../styles/kuba.module.css";
 import Head from "next/head";
+import Link from "next/link";
 
 
 const Kverify = () => {
@@ -15,7 +16,7 @@ const Kverify = () => {
         <div className={style.rightBa}>
           <div className={style.right}>
             <div className={style.logo}>
-              <img src="/logo.png" alt="logo" /> <span>One Secure</span>
+              <img src="/logo.png" alt="logo" /> <span>Kuda Bank</span>
             </div>
 
             <h2>Kuba Bank is requesting to access the following details:</h2>
@@ -36,7 +37,9 @@ const Kverify = () => {
               <input type="text" placeholder="NIN" />
             </div>
 
-            <button>Continue</button>
+            <button>
+              <Link href="/kubaverify2">Continue</Link>
+            </button>
           </div>
         </div>
         <div className={style.leftBa}>

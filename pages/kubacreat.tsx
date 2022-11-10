@@ -17,12 +17,11 @@ const Kcreate = () => {
         <div className={style.rightBa}>
           <div className={style.right}>
             <div className={style.logo}>
-              <img src="/logo.png" alt="logo" /> <span>One Secure</span>
+              <img src="/logo.png" alt="logo" /> <span>Kuda Bank</span>
             </div>
 
             <h2>Create a account</h2>
             <p>We’re the bank of the free</p>
-
 
             <div className={style.input}>
               <input type="text" placeholder="Email" />
@@ -30,9 +29,10 @@ const Kcreate = () => {
             <div className={style.input}>
               <input type="text" placeholder="Password" />
             </div>
-           
 
-            <button>Create Account</button>
+            <button>
+              <Link href="/verify">Create Account</Link>
+            </button>
 
             <span className={style.or}>Or</span>
 

@@ -1,5 +1,6 @@
 import style from "../styles/kuba.module.css";
 import Head from "next/head";
+import Link from "next/link";
 
 const Verify = () => {
   return (
@@ -27,7 +28,9 @@ const Verify = () => {
               than a minute to create a new account.
             </span>
 
-            <button>Create Account</button>
+            <button>
+              <Link href="/signUp">Create Account</Link>
+            </button>
           </div>
         </div>
         <div className={style.leftBa}>

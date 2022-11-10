@@ -32,7 +32,7 @@ export default function Home() {
 
               <div className={style.btn}>
                 <button>
-                  <Link href="/">Try out demo</Link>
+                  <Link href="/kubacreat">Try out demo</Link>
                 </button>
                 <div className={style.watch}>
                   <AiOutlinePlayCircle className={style.play} />{" "}

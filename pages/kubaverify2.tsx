@@ -17,7 +17,7 @@ const Kverify2 = () => {
         <div className={style.rightBa}>
           <div className={style.right}>
             <div className={style.logo}>
-              <img src="/logo.png" alt="logo" /> <span>One Secure</span>
+              <img src="/logo.png" alt="logo" /> <span>Kuda Bank</span>
             </div>
 
             <h2>Kuba Bank is requesting to access the following details:</h2>
@@ -29,18 +29,19 @@ const Kverify2 = () => {
               <div className={style.one}>3</div>
             </div>
 
-         
             <div className={style.inputNin}>
-                <div className={style.text}>
-                    <p>NIN</p>
-                    <RiArrowUpSLine className={style.textIcon}/>
-                </div>
+              <div className={style.text}>
+                <p>NIN</p>
+                <RiArrowUpSLine className={style.textIcon} />
+              </div>
               <input type="text" placeholder="NIN" />
             </div>
 
-            <button>Continue</button>
-            <Link href='/kubaverify' className={style.back}>
-                    Back 
+            <button>
+              <Link href="/kubaverify3">Continue</Link>
+            </button>
+            <Link href="/kubaverify" className={style.back}>
+              Back
             </Link>
           </div>
         </div>

@@ -31,7 +31,9 @@ const Login = () => {
               <input type="text" placeholder="OneSecure Password" />
             </div>
 
-            <button>Login</button>
+            <button>
+              <Link href="/dashboard">Login</Link>
+            </button>
             <p className={style.login}>
               Don&lsquo;t have a OneSecure <br /> account?
               <Link className={style.loginC} href="/">

@@ -16,7 +16,7 @@ const Kverify4 = () => {
         <div className={style.rightBa}>
           <div className={style.right}>
             <div className={style.logo}>
-              <img src="/logo.png" alt="logo" /> <span>One Secure</span>
+              <img src="/logo.png" alt="logo" /> <span>Kuda Bank</span>
             </div>
             <h2>Kuba Bank is requesting to access the following details:</h2>
             <div className={style.nums2}>
