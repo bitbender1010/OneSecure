@@ -112,7 +112,7 @@
 }
 
 .spon {
-  padding: 4em 0;
+  padding: 6em 0;
   max-width: 1440px;
   margin: auto;
   width: 100%;
@@ -123,8 +123,8 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
-  line-height: 45px;
+  font-size: 25px;
+  /* line-height: 45px; */
   text-align: center;
   color: #000000;
 }
@@ -154,7 +154,8 @@
 .demo {
   max-width: 1440px;
   width: 100%;
-  margin: auto;
+  margin: 2em auto;
+  margin-bottom: 5em;
   height: 100%;
 }
 
@@ -163,8 +164,7 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
-  line-height: 45px;
+  font-size: 25px;
   text-align: center;
   color: #000000;
   margin: 0 auto 2em;
@@ -204,16 +204,15 @@
 
 .explore {
   max-width: 1440px;
-  margin: auto;
-  width: 100%;
+  margin: 15em 10px;
+  padding: 0 10%;
 }
 
 .explore h2 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
-  line-height: 45px;
+  font-size: 25px;
   text-align: center;
   color: #000000;
 }
@@ -224,24 +223,26 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 2em;
+  margin-top: 3em;
 }
 
 .conCap {
-  width: 350px;
+  width: 300px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .conCap h3 {
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 900;
-  font-size: 25px;
-  line-height: 38px;
+  font-weight: 600;
+  font-size: 22px;
   text-align: center;
   color: #000000;
+  margin-top: 10px;
 }
 
 .conCap p {
@@ -249,8 +250,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
-  line-height: 33px;
-  margin: 0 0;
+  margin-top: 10px;
   color: #000000;
 }
 
@@ -392,15 +392,7 @@
 }
 
 @media (max-width: 1440px) {
-  .nav,
-  .headCon,
-  .spon,
-  .demo,
-  .explore,
-  .int,
-  .footer {
-    max-width: 98%;
-  }
+
   .content {
     justify-content: space-around;
     gap: 1em;

@@ -55,7 +55,7 @@ export default function Home() {
           <div className={style.spon}>
             <h2>
               There are so many identify verification infrastructures out there
-              but your customers don’t care
+              but your customers don’t care. All they want is to get verified and start using your platform.
             </h2>
 
             <div className={style.sponCap}>
