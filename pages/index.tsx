@@ -99,48 +99,47 @@ export default function Home() {
                 <AiOutlineCheckCircle className={style.cIcon} />
                 <h3>Banking and Lending</h3>
                 <p>
-                  KYC compliance regulations are becoming more stringent as
-                  service digitization becomes more important.
+                Get easy access to your users' data, all in one place, BVN, NIN, 
+                House Address, CAC Documents, etc.
                 </p>
               </div>
               <div className={style.conCap}>
                 <AiOutlineCheckCircle className={style.cIcon} />
                 <h3>Telecoms</h3>
                 <p>
-                  KYC compliance regulations are becoming more stringent as
-                  service digitization becomes more important.
+                Registering a new sim user shouldn't require much hassle. Get access to a user's local government area, 
+                state of origin, and mother's maiden name, all in one click.
                 </p>
               </div>
               <div className={style.conCap}>
                 <AiOutlineCheckCircle className={style.cIcon} />
                 <h3>Ecommerce</h3>
                 <p>
-                  KYC compliance regulations are becoming more stringent as
-                  service digitization becomes more important.
+                Verify your sellers and reduce fraudulent activities. 
+                The semi-anonymity of some e-commerce platforms makes them easily prone to fraudulent schemes.
                 </p>
               </div>
               <div className={style.conCap}>
                 <AiOutlineCheckCircle className={style.cIcon} />
                 <h3>Health Care</h3>
                 <p>
-                  KYC compliance regulations are becoming more stringent as
-                  service digitization becomes more important.
+                Get users' health records like genotype, blood group, and allergies, all with one integration.
                 </p>
               </div>
               <div className={style.conCap}>
                 <AiOutlineCheckCircle className={style.cIcon} />
                 <h3>Education</h3>
                 <p>
-                  KYC compliance regulations are becoming more stringent as
-                  service digitization becomes more important.
+                Access past education history, user's biodata, exam scores, etc. 
+                Improve your onboarding process with just one integration.
                 </p>
               </div>
               <div className={style.conCap}>
                 <AiOutlineCheckCircle className={style.cIcon} />
                 <h3>Fraud Protection</h3>
                 <p>
-                  KYC compliance regulations are becoming more stringent as
-                  service digitization becomes more important.
+                Report and block fraudulent users and get insights on users that 
+                either have been reported or blocked by other platforms.
                 </p>
               </div>
             </div>

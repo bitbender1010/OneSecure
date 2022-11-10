@@ -204,7 +204,7 @@
 
 .explore {
   max-width: 1440px;
-  margin: 15em 10px;
+  margin: 15em 10px 10em 10px;
   padding: 0 10%;
 }
 
@@ -219,11 +219,11 @@
 
 .content {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 2em;
-  margin-top: 3em;
+  margin-top: 5em;
 }
 
 .conCap {
@@ -264,25 +264,24 @@
 }
 .int {
   max-width: 1440px;
-  margin: auto;
-  height: 483px;
-  width: 100%;
+  margin: 0px 10%;
   background: #32bea6;
   border-radius: 20px;
-  display: flex;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
   align-items: center;
   justify-content: space-around;
 }
-.iText {
+/* .iText {
   width: 473px;
-}
+} */
 
 .iText h2 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
-  line-height: 45px;
   color: #000000;
   margin: 0 0 1em;
 }
@@ -292,20 +291,17 @@
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
-  line-height: 38px;
   color: #000000;
 }
 
 .iText button {
-  width: 260px;
-  height: 70px;
+  padding: 10px 30px;
   background: #000000;
   border-radius: 10px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
-  line-height: 38px;
   color: #ffffff;
   outline: none;
   border: none;
@@ -313,7 +309,11 @@
 
 .imagi {
   width: 400px;
-  height: 277.12px;
+  height: auto;
+}
+
+.iText {
+  padding-right: 10%;
 }
 
 .imagi img {
@@ -413,6 +413,11 @@
   /* .image {
     margin: 0 0 0 auto;
   } */
+
+  .int {
+    grid-template-columns: 1fr;
+  }
+
 }
 
 @media (max-width: 900px) {
@@ -439,7 +444,7 @@
     margin: 0 auto 2em 0;
   }
   .imagi{
-    margin: 0 0 0 auto;
+     margin: 40px auto 0px;
   }
 }
 
@@ -460,8 +465,12 @@
   justify-content: center ;
   }
 
-  .nav, .headCon, .one {
+  .nav, .headCon, .one, .explore {
     padding: 0px 10px;
+  }
+
+  .conCap {
+    width: -webkit-fill-available;
   }
 
 }
@@ -504,12 +513,11 @@
     object-fit: contain;
     margin: auto;
   }
-  .iText {
+  /* .iText {
     width: 97%;
-  }
+  } */
   .imagi {
-    width: 97%;
-    margin: auto;
+    width: -webkit-fill-available;
   }
 
   .first {
