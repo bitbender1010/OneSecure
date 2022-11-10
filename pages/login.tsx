@@ -1,6 +1,7 @@
 import style from "../styles/create.module.css";
 import Head from "next/head";
 import Link from "next/link";
+import Image from 'next/image'
 
 const Login = () => {
   return (
@@ -15,7 +16,7 @@ const Login = () => {
         <div className={style.rightBa}>
           <div className={style.right}>
             <div className={style.logo}>
-              <img src="/logo.png" alt="logo" /> <span>One Secure</span>
+              <Image src="/logo.png" alt="logo" /> <span>One Secure</span>
             </div>
 
             <h2>Log in to your OneSecure account</h2>
@@ -43,7 +44,7 @@ const Login = () => {
           </div>
         </div>
         <div className={style.leftBa}>
-          <img src="/gr.png" alt="" />
+          <Image src="/gr.png" alt="" />
         </div>
       </main>
     </div>

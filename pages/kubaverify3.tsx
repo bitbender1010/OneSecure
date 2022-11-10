@@ -2,6 +2,7 @@ import style from "../styles/kuba.module.css";
 import Head from "next/head";
 import { RiArrowUpSLine } from "react-icons/ri";
 import Link from "next/link";
+import Image from 'next/image'
 import { TbFaceId } from 'react-icons/tb'
 
 const Kverify3 = () => {

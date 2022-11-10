@@ -11,28 +11,29 @@
 }
 
 .header {
-  height: 763px;
   background: #32bea6;
-  padding: 3em 0;
+  padding: 2em 0;
+  padding-bottom: 4em;
 }
 
 .nav {
+  margin: 10px auto;
   max-width: 1440px;
-  width: 100%;
-  margin: 0 auto 3em;
+  padding: 0 10%;
 }
 
 .nav img {
-  width: 221px;
-  height: 46.67px;
+  width: 150px;
+  height: auto;
 }
 
 .headCon {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 2em auto;
   max-width: 1440px;
-  margin: auto;
+  padding: 0 10%;
 }
 .text {
   width: 586px;
@@ -41,17 +42,15 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
-  line-height: 75px;
+  font-size: 40px;
   color: #000000;
-  margin: 0 0 1em;
+  margin: 0 0 10px;
 }
 .text p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  line-height: 45px;
   color: #000000;
   margin: 0 0 2em;
 }
@@ -64,14 +63,13 @@
 }
 
 .btn button {
-  width: 315px;
-  height: 80px;
+  padding: 10px 30px;
   background: #000000;
   border-radius: 10px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 45px;
   color: #ffffff;
   border: none;
@@ -82,10 +80,15 @@
   align-items: center;
   justify-content: center;
   gap: 0.4em;
+  cursor: pointer;
+}
+
+.watch span {
+  font-size: 25px;
 }
 
 .play {
-  font-size: 40px;
+  font-size: 50px;
 }
 .watch p {
   font-family: "Poppins", sans-serif;
@@ -96,8 +99,8 @@
   color: #000000;
 }
 .image {
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
 }
 
 .image img {
@@ -109,7 +112,7 @@
 }
 
 .spon {
-  padding: 4em 0;
+  padding: 6em 0;
   max-width: 1440px;
   margin: auto;
   width: 100%;
@@ -120,8 +123,8 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
-  line-height: 45px;
+  font-size: 25px;
+  /* line-height: 45px; */
   text-align: center;
   color: #000000;
 }
@@ -129,15 +132,17 @@
 .one {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 4em;
   margin-bottom: 4em;
+  max-width: 1440px;
+  justify-content: space-around;
+  padding: 0px 10%;
 }
 
 .sponCap img {
-  width: 250px;
-  height: 58.21px;
+  width: 200px;
+  height: auto;
 }
 
 .demoB {
@@ -149,7 +154,8 @@
 .demo {
   max-width: 1440px;
   width: 100%;
-  margin: auto;
+  margin: 2em auto;
+  margin-bottom: 5em;
   height: 100%;
 }
 
@@ -158,8 +164,7 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
-  line-height: 45px;
+  font-size: 25px;
   text-align: center;
   color: #000000;
   margin: 0 auto 2em;
@@ -199,44 +204,45 @@
 
 .explore {
   max-width: 1440px;
-  margin: auto;
-  width: 100%;
+  margin: 15em 10px 10em 10px;
+  padding: 0 10%;
 }
 
 .explore h2 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
-  line-height: 45px;
+  font-size: 25px;
   text-align: center;
   color: #000000;
 }
 
 .content {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 2em;
+  margin-top: 5em;
 }
 
 .conCap {
-  width: 350px;
+  width: 300px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .conCap h3 {
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 900;
-  font-size: 25px;
-  line-height: 38px;
+  font-weight: 600;
+  font-size: 22px;
   text-align: center;
   color: #000000;
+  margin-top: 10px;
 }
 
 .conCap p {
@@ -244,8 +250,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
-  line-height: 33px;
-  margin: 0 0;
+  margin-top: 10px;
   color: #000000;
 }
 
@@ -259,25 +264,24 @@
 }
 .int {
   max-width: 1440px;
-  margin: auto;
-  height: 483px;
-  width: 100%;
+  margin: 0px 10%;
   background: #32bea6;
   border-radius: 20px;
-  display: flex;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
   align-items: center;
   justify-content: space-around;
 }
-.iText {
+/* .iText {
   width: 473px;
-}
+} */
 
 .iText h2 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
-  line-height: 45px;
   color: #000000;
   margin: 0 0 1em;
 }
@@ -287,20 +291,17 @@
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
-  line-height: 38px;
   color: #000000;
 }
 
 .iText button {
-  width: 260px;
-  height: 70px;
+  padding: 10px 30px;
   background: #000000;
   border-radius: 10px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
-  line-height: 38px;
   color: #ffffff;
   outline: none;
   border: none;
@@ -308,7 +309,11 @@
 
 .imagi {
   width: 400px;
-  height: 277.12px;
+  height: auto;
+}
+
+.iText {
+  padding-right: 10%;
 }
 
 .imagi img {
@@ -387,15 +392,7 @@
 }
 
 @media (max-width: 1440px) {
-  .nav,
-  .headCon,
-  .spon,
-  .demo,
-  .explore,
-  .int,
-  .footer {
-    max-width: 98%;
-  }
+
   .content {
     justify-content: space-around;
     gap: 1em;
@@ -413,9 +410,14 @@
     margin: 0 auto 2em 0;
   }
 
-  .image {
+  /* .image {
     margin: 0 0 0 auto;
+  } */
+
+  .int {
+    grid-template-columns: 1fr;
   }
+
 }
 
 @media (max-width: 900px) {
@@ -442,7 +444,7 @@
     margin: 0 auto 2em 0;
   }
   .imagi{
-    margin: 0 0 0 auto;
+     margin: 40px auto 0px;
   }
 }
 
@@ -461,6 +463,14 @@
   .sec {
   flex-wrap: wrap;
   justify-content: center ;
+  }
+
+  .nav, .headCon, .one, .explore {
+    padding: 0px 10px;
+  }
+
+  .conCap {
+    width: -webkit-fill-available;
   }
 
 }
@@ -484,22 +494,30 @@
   }
 
   .btn button {
-    width: 200px;
-    height: 70px;
+    /* width: 200px;
+    height: 70px; */
     font-size: 22px;
     line-height: 39px;
   }
+
+  .watch span {
+    font-size: 22px;
+  }
+
+  .play {
+    font-size: 40px;
+  }
+
   .image {
-    width: 95%;
+    /* width: 95%; */
     object-fit: contain;
     margin: auto;
   }
-  .iText {
+  /* .iText {
     width: 97%;
-  }
+  } */
   .imagi {
-    width: 97%;
-    margin: auto;
+    width: -webkit-fill-available;
   }
 
   .first {

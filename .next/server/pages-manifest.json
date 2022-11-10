@@ -2,5 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/newS": "pages/newS.js"
+  "/kubaverify3": "pages/kubaverify3.js",
+  "/kubaverify4": "pages/kubaverify4.js",
+  "/": "pages/index.js"
 }

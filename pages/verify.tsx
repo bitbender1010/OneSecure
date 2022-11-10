@@ -13,7 +13,7 @@ const Verify = () => {
 
       <main className={style.main}>
         <div className={style.rightBa}>
-          <div className={style.right}>
+            <div className={style.right}>
             <div className={style.logo}>
               <img src="/kuda.png" alt="logo" /> <span>Kuba Bank</span>
             </div>

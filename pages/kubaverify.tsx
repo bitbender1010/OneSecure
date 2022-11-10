@@ -30,17 +30,32 @@ const Kverify = () => {
             </div>
 
             <div className={style.input}>
-              <input type="text" placeholder="First Name" disabled />
+              <input
+                style={{ width: "90%" }}
+                type="text"
+                placeholder="First Name"
+                disabled
+              />
 
               <AiOutlineCheckCircle className={style.check} />
             </div>
             <div className={style.input}>
-              <input type="text" placeholder="Last Name" disabled />
+              <input
+                style={{ width: "90%" }}
+                type="text"
+                placeholder="Last Name"
+                disabled
+              />
               <AiOutlineCheckCircle className={style.check} />
             </div>
             <div className={style.inputt}>
               <div className={style.inpput}>
-                <input type="text" placeholder="NIN" disabled />
+                <input
+                  style={{ width: "90%" }}
+                  type="text"
+                  placeholder="NIN"
+                  disabled
+                />
                 <FaTimes className={style.times} />
               </div>
 

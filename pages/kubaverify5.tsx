@@ -1,6 +1,7 @@
 import style from "../styles/kuba.module.css";
 import Head from "next/head";
 import Link from "next/link";
+import Image from 'next/image'
 import { BsCheckCircleFill } from "react-icons/bs";
 
 const Kverify4 = () => {

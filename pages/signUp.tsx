@@ -3,6 +3,7 @@ import Head from "next/head";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Link from "next/link";
+import Image from 'next/image'
 
 const Create = () => {
   return (
