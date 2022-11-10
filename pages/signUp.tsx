@@ -35,9 +35,6 @@ const Create = () => {
             <div className={style.input}>
               <input type="text" placeholder="Password" />
             </div>
-            <div className={style.input}>
-              <input type="text" placeholder="Confirm Password" />
-            </div>
 
             <button>
               <Link href="/kubaverify">Create Account</Link>

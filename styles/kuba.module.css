@@ -102,6 +102,48 @@
   outline: none;
   margin-bottom: 1em;
 }
+.inputt {
+  width: 480px;
+  left: 120px;
+  top: 383px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 1em;
+}
+.inputt input {
+  width: 90%;
+  height: 25%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding-left: 1em;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.inputt p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ff0000;
+  margin: 1em auto;
+  width: 448px;
+}
+.check{
+  font-size: 30px;
+  color: #018C0F;
+}
+.times{
+  font-size: 30px;
+  color: #FF0000;
+}
 .input input {
   width: 90%;
   height: 100%;
@@ -235,14 +277,14 @@
   margin: 2em 0 3em;
 }
 .nums2 .line {
-  width: 200px;
+  width: 41%;
   height: 4px;
   background-color: white;
   position: absolute;
   left: 6%;
 }
 .nums2 .line2 {
-  width: 200px;
+  width: 41%;
   height: 4px;
   background-color: white;
   position: absolute;
@@ -304,15 +346,14 @@
   background: #ffffff !important;
   border: 2px solid #000000;
   border-radius: 10px;
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 33px;
-/* identical to box height */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
 
-
-color: #000000 !important;
+  color: #000000 !important;
 }
 
 .login {
@@ -391,6 +432,14 @@ color: #000000 !important;
   .inputCap,
   .inputCapp {
     width: 98%;
+  }
+
+  .btnn {
+    width: 97%;
+    margin: auto;
+  }
+  .back {
+    width: 98R;
   }
 }
 
